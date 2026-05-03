@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from "react";
 import { createClient } from "@supabase/supabase-js";
 
 // ─── CONFIG: Yahan apni Supabase keys daalo ──────────────────
-const SUPABASE_URL = "YOUR_SUPABASE_URL";        // e.g. https://abc.supabase.co
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY"; // Project Settings > API
+const SUPABASE_URL = "https://lxnioekekombeoxdhklg.supabase.co";        // e.g. https://abc.supabase.co
+const SUPABASE_ANON_KEY = "sb_publishable_bavgPR7ZrDeeNVTh69Kkmw_Oi6ZXe-2"; // Project Settings > API
 // ─────────────────────────────────────────────────────────────
 
 const supabase = createClient("https://lxnioekekombeoxdhklg.supabase.co","sb_publishable_bavgPR7ZrDeeNVTh69Kkmw_Oi6ZXe-2");
