@@ -6,7 +6,7 @@ const SUPABASE_URL = "https://lxnioekekombeoxdhklg.supabase.co";        // e.g. 
 const SUPABASE_ANON_KEY = "sb_publishable_bavgPR7ZrDeeNVTh69Kkmw_Oi6ZXe-2"; // Project Settings > API
 // ─────────────────────────────────────────────────────────────
 
-const supabase = createClient("https://lxnioekekombeoxdhklg.supabase.co","sb_publishable_bavgPR7ZrDeeNVTh69Kkmw_Oi6ZXe-2");
+const supabase = createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
 
 const STATUS_COLORS = {
   Confirmed: "#f0c040", "In Progress": "#4db8ff",
